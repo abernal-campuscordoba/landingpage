@@ -441,6 +441,13 @@ a {
     font-weight: 700;
 }
 
+.social-icon {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+}
+
 .social-link:hover, .footer-social:hover {
     color: var(--ink);
     background: var(--accent);
@@ -478,6 +485,10 @@ a {
     width: 2.2rem;
     height: 2.2rem;
     border-color: #43504c;
+}
+
+.site-footer .footer-social[aria-label="GitHub"] .social-icon {
+    filter: brightness(0) invert(1);
 }
 
 .site-footer .footer-social:hover {
